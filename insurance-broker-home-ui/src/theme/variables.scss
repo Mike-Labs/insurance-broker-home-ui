@@ -1,0 +1,97 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-primary: #27abe3;
+	--ion-color-primary-rgb: 39,171,227;
+	--ion-color-primary-contrast: #000000;
+	--ion-color-primary-contrast-rgb: 0,0,0;
+	--ion-color-primary-shade: #2296c8;
+	--ion-color-primary-tint: #3db3e6;
+
+	--ion-color-secondary: #144e93;
+	--ion-color-secondary-rgb: 20,78,147;
+	--ion-color-secondary-contrast: #ffffff;
+	--ion-color-secondary-contrast-rgb: 255,255,255;
+	--ion-color-secondary-shade: #124581;
+	--ion-color-secondary-tint: #2c609e;
+
+	--ion-color-tertiary: #1f95eb;
+	--ion-color-tertiary-rgb: 31,149,235;
+	--ion-color-tertiary-contrast: #000000;
+	--ion-color-tertiary-contrast-rgb: 0,0,0;
+	--ion-color-tertiary-shade: #1b83cf;
+	--ion-color-tertiary-tint: #35a0ed;
+
+	--ion-color-success: #48cfad;
+	--ion-color-success-rgb: 72,207,173;
+	--ion-color-success-contrast: #000000;
+	--ion-color-success-contrast-rgb: 0,0,0;
+	--ion-color-success-shade: #3fb698;
+	--ion-color-success-tint: #5ad4b5;
+
+	--ion-color-warning: #ffce54;
+	--ion-color-warning-rgb: 255,206,84;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #e0b54a;
+	--ion-color-warning-tint: #ffd365;
+
+	--ion-color-danger: #ed5565;
+	--ion-color-danger-rgb: 237,85,101;
+	--ion-color-danger-contrast: #000000;
+	--ion-color-danger-contrast-rgb: 0,0,0;
+	--ion-color-danger-shade: #d14b59;
+	--ion-color-danger-tint: #ef6674;
+
+	--ion-color-light: #f6f8fc;
+	--ion-color-light-rgb: 246,248,252;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d8dade;
+	--ion-color-light-tint: #f7f9fc;
+
+	--ion-color-medium: #5f5f5f;
+	--ion-color-medium-rgb: 95,95,95;
+	--ion-color-medium-contrast: #ffffff;
+	--ion-color-medium-contrast-rgb: 255,255,255;
+	--ion-color-medium-shade: #545454;
+	--ion-color-medium-tint: #6f6f6f;
+
+	--ion-color-dark: #000d1b;
+	--ion-color-dark-rgb: 0,13,27;
+	--ion-color-dark-contrast: #ffffff;
+	--ion-color-dark-contrast-rgb: 255,255,255;
+	--ion-color-dark-shade: #000b18;
+	--ion-color-dark-tint: #1a2532;
+
+	--fw-header:normal;
+	--fw-subheader:semi-bold;
+
+	--ff-header:"Marselis Pro";
+	--ff-text:Inter;
+
+	--fs-header:32px;
+	--fs-subheader:16px;
+	--fs-body:14px;
+
+	--color-bottomsheet-text:#A09CAB;
+
+	@font-face {
+		font-family: 'Marselis Pro';
+		font-style: normal;
+		font-weight: bold;
+		src: url('../assets/fonts/MarselisPro.woff');
+	  }
+
+	  .header-custom-font{
+		font-family: var(--ff-header, inherit);
+        font-weight: var(--fw-header, inherit);
+        font-size: var(--fs-header, inherit);
+		// border: 2px solid yellow;
+	  }
+
+	  .custom-secondary-contrast-text {
+		color: var(--ion-color-secondary-contrast) !important;
+	  } 
+
+}

@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding-start ion-padding-end content-wrapper">
+  
+  <div class="title title-margin-top">
+    <ion-title class="header-custom-font inner-title" slot="start">App Name</ion-title>
+  </div>
+  
+  <div class="text-initial">
+    <ion-fab-button slot="start" class="fab-button-margin-start" color="ion-background-color">
+      <ion-label class="text-container header-custom-font" color="ion-color-primary-contrast">{{initials}}</ion-label>
+    </ion-fab-button>
+  </div>
+  
+  <ion-row class="row-image ion-justify-content-center">
+    <ion-img src="assets/blau_home_illustration_storyset.png" style="width: 180px; height: 180px;"></ion-img>
+  </ion-row>
+  
+  <!-- Grid system to align buttons in a column -->
+  <ion-grid class="grid-wrapper">
+    <ion-row>
+      <ion-col class="col-wrapper">
+        <ion-button class="button-wrapper" expand="block" color="primary">
+          <span class="btn-txt" class="custom-secondary-contrast-text">
+            Take Picture
+          </span>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="col-wrapper">
+        <ion-button class="button-wrapper" expand="block" color="primary">
+          <span class="btn-txt" class="custom-secondary-contrast-text">
+            Upload Files
+          </span>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="col-wrapper">
+        <ion-button class="button-wrapper-logout" expand="block" color="light">
+          <ion-text color="dark">
+            Logout
+          </ion-text>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
